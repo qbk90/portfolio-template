@@ -172,6 +172,10 @@ a:hover{
     width: 225px;
 }
 
+#education .container{
+    min-height: 50vh;
+}
+
 #education h2{
     text-align: center;
     margin: 20px;
@@ -187,7 +191,12 @@ a:hover{
 }
 
 #contact .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 50vh;
     background-color: #264248;
+    color:#DCE2E5;
 }
 
 #contact h2{
@@ -267,7 +276,42 @@ footer{
         border-radius: 1000px;
     }
 
+    #about-me p{
+        text-align: right;
+    }
+
+    #portfolio .container{
+        min-height: 80vh;
+    }
+
+    #portfolio h2{
+        margin-top: 70px;
+    }
+
     #portfolio p{
         display: flex;
+        max-width: 20vw;
+        text-align: center;
+        margin: 15px;
+    }
+
+    #education{
+        display: flex;
+        justify-content: center;
+    }
+
+    #education .container{
+        max-width: 65vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #education h2{
+        margin-top: 70px;
+    }
+
+    #contact a{
+        font-size: 1.5em;
     }
 }
